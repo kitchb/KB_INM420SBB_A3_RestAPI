@@ -32,7 +32,7 @@ async function getData(date) {
 
 // Function to set max date to today
 function setMaxDate() {
-    const today = new Date().toISOString().split('T')[0];
+    const today = new Date().toLocaleDateString('en-CA');
     document.getElementById('dateInput').setAttribute('max', today);
 }
 
