@@ -1,6 +1,6 @@
 // Function to fetch and display NASA APOD
 async function getData(date) {
-    const apiKey = 'uGrT2eMt6O2wgXsiMft3IJcAOwBFdq61XZ2a5scW'; 
+    const apiKey = 'uGrT2eMt6O2wgXsiMft3IJcAOwBFdq61XZ2a5scW';
     const url = `https://api.nasa.gov/planetary/apod?api_key=${apiKey}&date=${date}`;
 
     try {
